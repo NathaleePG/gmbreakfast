@@ -232,19 +232,26 @@ li span{
 
 #main #head{
     font-size:2.5em;
+    opacity:0;
 }
 
 #main #a1, #a2{
     line-height:30px;
+    opacity:0;
 }
 
 #main #a2{
     text-align:left;
 }
 
+#main #a3{
+    opacity:0;
+}
+
 #main ul{
     text-align: left;
     list-style-type:none;
+    opacity:0;
 }
 
 #main ul > p{

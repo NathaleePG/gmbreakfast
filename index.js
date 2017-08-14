@@ -48,7 +48,7 @@ $(function() {
         }
     });
 
-    $("#main > p").delay(200).each(function(){
+    $("#main").children().delay(200).each(function(){
         $(this).delay(251*($(this).index() + 1)).animate({
             opacity:1
         }, 1500);
