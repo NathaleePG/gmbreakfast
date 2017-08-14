@@ -48,6 +48,12 @@ $(function() {
         }
     });
 
+    $("#main").children().delay(200).each(function(){
+        $(this).delay(250*$(this).index() + 1).animate({
+            opacity:1
+        }, 1500);
+    });
+
 
     /*
     $nav.on("mouseover", function(){
