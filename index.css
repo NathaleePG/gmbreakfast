@@ -227,129 +227,51 @@ li span{
 #main{
     position:relative;
     margin:200px auto 100px auto;
-    width:95%;
+    width:90%;
 }
 
 #main #head{
     font-size:2.5em;
-    color: rgb(158, 107, 192);
+    opacity:0;
 }
 
-#main #ss{
-    position:relative;
-    width:620px;
-    height:470px;
-    margin:10px auto 50px auto;
+#main #a1, #a2{
+    line-height:30px;
+    opacity:0;
 }
 
-.p1{
-    background:url("ss1.jpg") center;
-}
-
-.p2{
-    background:url("ss2.jpg") center;
-}
-
-#main .body{
-    margin:0 3%;
-}
-
-#main #sub2{
-    margin-top:100px;
-    margin-bottom:25px;
-    text-align:center;
-    font-size:2em;
-    font-style:italic;
-}
-
-.body2{
-    font-style:italic;
-    margin:20px 1%;
-}
-
-.pics{
-    position:relative;
-    width:630px;
-    height:470px;
-    margin:0 auto 75px auto;
-}
-
-#p1{
-    background:url('pic1.jpg') center;
-}
-#p2{
-    background:url('pic2.jpg') center;
-}
-#p3{
-    background:url('pic3.jpg') center;
-}
-#p4{
-    background:url('pic4.jpg') center;
-}
-#p5{
-    background:url('pic5.jpg') center;
-}
-#p6{
-    background:url('pic6.jpg') center;
-}
-#p7{
-    background:url('pic7.jpg') center;
-}
-#p8{
-    background:url('pic8.jpg') center;
-}
-#p9{
-    background:url('pic9.jpg') center;
-}
-#p10{
-    background:url('pic10.jpg') center;
-}
-#p11{
-    background:url('pic11.jpg') center;
-    margin-bottom:10px;
-}
-
-.body span{
-    font-weight:bold;
-}
-
-#sub3{
-    margin:100px 3% 100px 3%;
-    text-align: center;
-    font-size:1.5em;
-}
-
-#ingred{
-    text-align: left;
-    margin:0 5%;
-}
-
-#ingred span{
-    font-size:1em;
-    margin:0 -2%;
-}
-
-#main > ol{
-    margin-top:50px;
+#main #a2{
     text-align:left;
-    margin-left:3%;
 }
 
-#main ol > li{
-    position:relative;
-    margin-left:3%;
+#main #a3{
+    opacity:0;
 }
 
-#main ol > li > p{
-    font-weight:bold;
+#main ul{
+    text-align: left;
+    list-style-type:none;
+    opacity:0;
+}
+
+#main ul > p{
+    text-decoration:underline;
+    font-size:1.1em;
+}
+
+#main ul > li a{
+    text-decoration: none;
+    color: rgb(158, 107, 192);
 }
 
 #bottom{
     margin-top:100px;
+    opacity:0;
 
 }
-#heart {
-    margin-top: 10px;
+#heart{
+    margin-top:10px;
+    opacity:0;
 }
 
 #root{
@@ -449,15 +371,6 @@ li span{
     }
 }
 
-@media screen and (max-width:670px){
-    #main .pics{
-        width:100%;
-    }
-
-    #main #ss{
-        width:100%;
-    }
-}
 @media screen and (max-width:575px) {
     #containerSec form{
         display:none;
@@ -480,19 +393,11 @@ li span{
         text-align:center;
     }
 
-    #main .body{
+    #main #a2{
         text-align:center;
     }
-    #main .body2{
-        text-align:center;
-    }
-    #main #sub3{
-        text-align:center;
-    }
-    #main #ingred{
-        text-align:center;
-    }
-    #main ol{
+
+    #main ul{
         text-align:center;
     }
 }
