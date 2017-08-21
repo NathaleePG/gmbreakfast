@@ -264,6 +264,16 @@ li span{
     color: rgb(158, 107, 192);
 }
 
+#bottom{
+    margin-top:100px;
+    opacity:0;
+
+}
+#heart{
+    margin-top:10px;
+    opacity:0;
+}
+
 #root{
     position:relative;
     width:90%;
